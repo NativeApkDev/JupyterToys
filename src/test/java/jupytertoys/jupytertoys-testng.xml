@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestAll">
+    <test name="contact-tests">
+        <classes>
+            <class name="jupytertoys.tests.ContactTests"/>
+        </classes>
+    </test>
+
+    <test name="login-tests">
+        <classes>
+            <class name="jupytertoys.tests.LoginTests"/>
+        </classes>
+    </test>
+
+    <test name="shop-tests">
+        <classes>
+            <class name="jupytertoys.tests.ShopTests"/>
+        </classes>
+    </test>
+
+    <test name="cart-tests">
+        <classes>
+            <class name="jupytertoys.tests.CartTests"/>
+        </classes>
+    </test>
+</suite>
